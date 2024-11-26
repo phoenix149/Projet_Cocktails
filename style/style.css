@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#logo1 {
+    width: 100%;
+    height: 30px;
+}
+
+#conteneurLogo_Titre {
+    background-color: #303030;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#searchBut {
+    background-color: #ff2121;
+    color: white;
+    float: right;
+    width: 8%;
+    margin-right: 50px;
+    height: 35px;
+}
+#searchBut:hover {
+    background-color: #1e90ff;
+}
+
+main {
+    margin-top: 10px;
+    background-color: #d1d1d1;
+    height: 1450px;
+}
+
+#shakebutton {
+    display: flex;
+    margin-right: 50px;
+    margin-top: 50px;
+    height: 50px;
+    background-color: #ff2121;
+    color: white;
+    border-radius: 5px;
+}
+#shakebutton:hover {
+    background-color: #1e90ff;
+
+}
+
+#formulaire {
+    margin-top: 230px;
+    width: 100%;
+    height: 100px;
+    background-color: darkgrey;
+}
+
+#titre1 {
+    margin-left: 50px;
+    color: #303030;
+    float: left;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+input.type:radio {
+    color: #ff2121;
+}
+
+#titre2 {
+    border-bottom: rgb(220, 20, 60, 0.80) 2px solid;
+    padding-bottom: 10px;
+    margin-left: 50px;
+    color: white;
+    float: left;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+#subTitle {
+    font-family: "Dancing Script", cursive;    
+    margin-left: 50px;
+    font-size: 27px;
+    color: #d1d1d1;
+
+}
+#searchChamps {
+    max-width: 92%;
+    width: 80%;
+    margin-left: 50px;
+    height: 35px;
+    font-family: "Dancing Script", cursive;  
+    font-size: 20px;  
+
+}
+#ingrCChoice {
+    padding-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+header{
+    background-color: white;
+}
+#ingR {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#cockR {
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+#ingrCChoice{
+    font-family: "Dancing Script", cursive;
+    font-size: 25px;
+    font-weight: bold;    
+
+    
+}
