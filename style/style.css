@@ -25,14 +25,16 @@
     margin-right: 50px;
     height: 35px;
 }
+
 #searchBut:hover {
     background-color: #1e90ff;
 }
 
 main {
-    margin-top: 10px;
+    margin-top: 330px;
     background-color: #d1d1d1;
-    height: 1450px;
+    height: 100%;
+   
 }
 
 #shakebutton {
@@ -44,6 +46,7 @@ main {
     color: white;
     border-radius: 5px;
 }
+
 #shakebutton:hover {
     background-color: #1e90ff;
 
@@ -62,8 +65,9 @@ main {
     float: left;
     font-size: 25px;
     font-weight: bold;
-    
+
 }
+
 input.type:radio {
     color: #ff2121;
 }
@@ -79,43 +83,62 @@ input.type:radio {
 }
 
 #subTitle {
-    font-family: "Dancing Script", cursive;    
+    font-family: "Dancing Script", cursive;
     margin-left: 50px;
     font-size: 27px;
     color: #d1d1d1;
 
 }
+
 #searchChamps {
     max-width: 92%;
     width: 80%;
     margin-left: 50px;
     height: 35px;
-    font-family: "Dancing Script", cursive;  
-    font-size: 20px;  
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
 
 }
+
 #ingrCChoice {
     padding-top: 10px;
     margin-left: 50px;
     margin-bottom: 10px;
 }
-header{
+
+header {
     background-color: white;
 }
+
 #ingR {
     margin-left: 10px;
     margin-right: 10px;
 }
+
 #cockR {
     margin-left: 10px;
     margin-right: 10px;
 
 }
 
-#ingrCChoice{
+#ingrCChoice {
     font-family: "Dancing Script", cursive;
     font-size: 25px;
-    font-weight: bold;    
+    font-weight: bold;
 
-    
+}
+#cocktailsConteneur{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:  auto 50px auto;
+    background-color: black;
+    padding-top: 50px;
+    width: 94%;
+    height: 100%;
+    min-height: 700px;
+   
+}
+.card {
+    width: 20%;
 }
