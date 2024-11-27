@@ -54,9 +54,7 @@ function click(event) {
 function shakeMeRandomCoktail() {
   console.log("Vous avez choisi la fonction random cocktail");
 }
-function createCoktail(){
 
-}
 
 
 
@@ -68,7 +66,7 @@ function AfficheCByCName(drinks) {
     ACocktail.setAttribute("class", "card");
 
     let cocktailName = _cocktail.strDrink;
-    ACocktail.innerHTML = '<img src="'+ _cocktail.strDrinkThumb + '"/><h5>' + cocktailName + '</h5>';
+    ACocktail.innerHTML = '<img src="'+ _cocktail.strDrinkThumb + '"/><h5>' + cocktailName + '</h5>'+ '<button type="button" class="btn btn-danger">Afficher plus ...</button>';
     cardConteneur.appendChild(ACocktail);
 
   });

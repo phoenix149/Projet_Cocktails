@@ -68,10 +68,6 @@ main {
 
 }
 
-input.type:radio {
-    color: #ff2121;
-}
-
 #titre2 {
     border-bottom: rgb(220, 20, 60, 0.80) 2px solid;
     padding-bottom: 10px;
@@ -85,7 +81,7 @@ input.type:radio {
 #subTitle {
     font-family: "Dancing Script", cursive;
     margin-left: 50px;
-    font-size: 27px;
+    font-size: 1.5em;
     color: #d1d1d1;
 
 }
@@ -141,4 +137,14 @@ header {
 }
 .card {
     width: 20%;
+    height: 350px;
+}
+.btn-danger{
+    background-color: #ff2121;
+    width: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+
+
 }
