@@ -128,7 +128,7 @@ header {
     flex-direction: row;
     flex-wrap: wrap;
     margin:  auto 50px auto;
-    background-color: black;
+    background : linear-gradient(black gray white); 
     padding-top: 50px;
     width: 94%;
     height: 100%;
@@ -137,7 +137,8 @@ header {
 }
 .card {
     width: 20%;
-    height: 350px;
+    text-align: center;
+
 }
 .btn-danger{
     background-color: #ff2121;
@@ -147,4 +148,7 @@ header {
     margin-top: auto;
 
 
+}
+#nothing {
+    font-size: 25px;
 }
