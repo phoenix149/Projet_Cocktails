@@ -1,154 +1,480 @@
+/* Réinitialise les marges et les paddings par défaut pour tous les éléments */
 * {
     margin: 0;
     padding: 0;
 }
 
+/* Style pour l'élément avec l'ID logo1 */
 #logo1 {
     width: 100%;
+    /* La largeur de l'élément prend 100% de son conteneur parent */
     height: 30px;
+    /* Hauteur de l'élément définie à 30px */
 }
 
+/* Style pour le conteneur de logo et titre */
 #conteneurLogo_Titre {
     background-color: #303030;
+    /* Couleur de fond du conteneur */
     width: 100%;
+    /* Largeur du conteneur prend 100% de son conteneur parent */
     height: 200px;
+    /* Hauteur du conteneur définie à 200px */
     display: flex;
+    /* Utilise le modèle de boîte flexible pour le layout */
     justify-content: space-between;
-
+    /* Distribue les éléments enfants de manière égale avec espace entre eux */
 }
 
+/* Style pour le bouton de recherche */
 #searchBut {
     background-color: #ff2121;
+    /* Couleur de fond du bouton */
     color: white;
+    /* Couleur du texte en blanc */
     float: right;
+    /* Flotte à droite de son conteneur parent */
     width: 8%;
+    /* Largeur du bouton définie à 8% de son conteneur parent */
     margin-right: 50px;
+    /* Marge à droite de 50px */
     height: 35px;
+    /* Hauteur du bouton définie à 35px */
 }
 
+/* Style pour le bouton de recherche lors du survol */
 #searchBut:hover {
-    background-color: #1e90ff;
+    background-color: #ae9b65;
+    /* Change la couleur de fond du bouton lors du survol */
 }
 
+/* Style pour l'élément main */
 main {
     margin-top: 330px;
-    background-color: #d1d1d1;
+    /* Marge en haut de 330px */
+    background: linear-gradient(gray, gray, white);
+    /* Dégradé de fond allant du gris au blanc */
     height: 100%;
-   
+    /* Hauteur de l'élément définie à 100% de son conteneur parent */
 }
 
+/* Style pour le bouton shakebutton */
 #shakebutton {
     display: flex;
+    /* Utilise le modèle de boîte flexible pour le layout */
     margin-right: 50px;
+    /* Marge à droite de 50px */
     margin-top: 50px;
+    /* Marge en haut de 50px */
     height: 50px;
+    /* Hauteur du bouton définie à 50px */
     background-color: #ff2121;
+    /* Couleur de fond du bouton */
     color: white;
+    /* Couleur du texte en blanc */
     border-radius: 5px;
+    /* Coins arrondis du bouton définis à 5px */
 }
 
+/* Style pour le bouton shakebutton lors du survol */
 #shakebutton:hover {
-    background-color: #1e90ff;
-
+    background-color: #ae9b65;
+    /* Change la couleur de fond du bouton lors du survol */
 }
 
+/* Style pour le formulaire */
 #formulaire {
     margin-top: 230px;
+    /* Marge en haut de 230px */
     width: 100%;
+    /* Largeur du formulaire prend 100% de son conteneur parent */
     height: 100px;
+    /* Hauteur du formulaire définie à 100px */
     background-color: darkgrey;
+    /* Couleur de fond du formulaire */
 }
 
+/* Style pour le titre 1 */
 #titre1 {
     margin-left: 50px;
+    /* Marge à gauche de 50px */
     color: #303030;
+    /* Couleur du texte */
     float: left;
+    /* Flotte à gauche de son conteneur parent */
     font-size: 25px;
+    /* Taille de la police de caractères */
     font-weight: bold;
-
+    /* Texte en gras */
 }
 
+/* Style pour le titre 2 */
 #titre2 {
     border-bottom: rgb(220, 20, 60, 0.80) 2px solid;
+    /* Bordure en bas */
     padding-bottom: 10px;
+    /* Padding en bas */
     margin-left: 50px;
+    /* Marge à gauche de 50px */
     color: white;
+    /* Couleur du texte */
     float: left;
+    /* Flotte à gauche de son conteneur parent */
     font-size: 50px;
+    /* Taille de la police de caractères */
     margin-top: 50px;
+    /* Marge en haut de 50px */
 }
 
+#titre2:hover {
+    border-bottom: #ae9b65 2px solid;
+    /* Change la couleur de la bordure lors du survol */
+}
+
+/* Style pour le sous-titre */
 #subTitle {
     font-family: "Dancing Script", cursive;
+    /* Police de caractères utilisée */
     margin-left: 50px;
+    /* Marge à gauche de 50px */
     font-size: 1.5em;
+    /* Taille de la police de caractères */
     color: #d1d1d1;
-
+    /* Couleur du texte */
 }
 
+/* Style pour le champ de recherche */
 #searchChamps {
     max-width: 92%;
+    /* Largeur maximale de l'élément définie à 92% */
     width: 80%;
+    /* Largeur de l'élément définie à 80% de son conteneur parent */
     margin-left: 50px;
+    /* Marge à gauche de 50px */
     height: 35px;
+    /* Hauteur de l'élément définie à 35px */
     font-family: "Dancing Script", cursive;
+    /* Police de caractères utilisée */
     font-size: 20px;
-
+    /* Taille de la police de caractères */
 }
 
+/* Style pour le conteneur des choix d'ingrédients */
 #ingrCChoice {
     padding-top: 10px;
+    /* Padding en haut */
     margin-left: 50px;
+    /* Marge à gauche de 50px */
     margin-bottom: 10px;
+    /* Marge en bas de 10px */
 }
 
+/* Style pour l'élément header */
 header {
     background-color: white;
+    /* Couleur de fond du header */
 }
 
+/* Style pour l'option de recherche par ingrédient */
 #ingR {
     margin-left: 10px;
+    /* Marge à gauche de 10px */
     margin-right: 10px;
+    /* Marge à droite de 10px */
 }
 
+/* Style pour l'option de recherche par cocktail */
 #cockR {
     margin-left: 10px;
+    /* Marge à gauche de 10px */
     margin-right: 10px;
-
+    /* Marge à droite de 10px */
 }
 
+/* Style pour le choix des ingrédients */
 #ingrCChoice {
     font-family: "Dancing Script", cursive;
+    /* Police de caractères utilisée */
     font-size: 25px;
+    /* Taille de la police de caractères */
     font-weight: bold;
+    /* Texte en gras */
+}
 
-}
-#cocktailsConteneur{
-    display: flex;
+/* Style pour le conteneur des cocktails */
+#cocktailsConteneur {
+    display: inline-flex;
+    /* Utilise le modèle de boîte flexible pour le layout */
     flex-direction: row;
+    /* Affiche les éléments en ligne */
     flex-wrap: wrap;
-    margin:  auto 50px auto;
-    background : linear-gradient(black gray white); 
+    /* Permet aux éléments de passer à la ligne suivante */
+    margin: auto 50px auto;
+    /* Marge automatique en haut et en bas, 50px à droite et à gauche */
     padding-top: 50px;
+    /* Padding en haut de 50px */
     width: 94%;
+    /* Largeur de l'élément définie à 94% de son conteneur parent */
     height: 100%;
+    /* Hauteur de l'élément définie à 100% de son conteneur parent */
     min-height: 700px;
-   
+    /* Hauteur minimale de l'élément définie à 700px */
 }
+
+/* Style pour les cartes des cocktails */
 .card {
     width: 20%;
+    /* Largeur de l'élément définie à 20% de son conteneur parent */
+    max-width: 20%;
+    /* Largeur maximale de l'élément définie à 20% */
     text-align: center;
-
+    /* Alignement du texte centré */
+    object-fit: cover;
+    /* Ajuste l'image pour couvrir l'élément sans déformation */
 }
-.btn-danger{
+
+/* Style pour les images des cartes */
+.imgCard {
+    max-width: 100%;
+    /* Largeur maximale de l'élément définie à 100% */
+}
+
+/* Style pour les boutons de la classe .btn-danger */
+.btn-danger {
     background-color: #ff2121;
+    /* Couleur de fond du bouton */
     width: 150px;
+    /* Largeur du bouton définie à 150px */
     margin-right: auto;
+    /* Marge automatique à droite */
     margin-left: auto;
+    /* Marge automatique à gauche */
     margin-top: auto;
-
-
+    /* Marge automatique en haut */
 }
+
+/* Style pour les boutons de la classe .btn-danger lors du survol */
+.btn-danger:hover {
+    background-color: #ae9b65;
+    /* Change la couleur de fond du bouton lors du survol */
+}
+
+/* Style pour l'élément avec l'ID nothing */
 #nothing {
     font-size: 25px;
+    /* Taille de la police de caractères */
+}
+
+/* Style pour l'en-tête de la modal */
+.modal-header {
+    background-color: #303030;
+    /* Couleur de fond de l'en-tête */
+    color: #d1d1d1;
+    /* Couleur du texte */
+    border-bottom: rgb(220, 20, 60, 0.80) 2px solid;
+    /* Bordure en bas */
+}
+
+/* Style pour l'image de la modal */
+#modalImage {
+    border: 2px solid;
+    /* Bordure de l'image */
+    border-radius: 10px;
+    /* Coins arrondis de l'image */
+    max-width: 100%;
+    /* Largeur maximale de l'image définie à 100% */
+    max-height: 300px;
+    /* Hauteur maximale de l'image définie à 300px */
+    object-fit: cover;
+    /* Ajuste l'image pour couvrir l'élément sans déformation */
+    display: block;
+    /* Affiche l'image comme un bloc */
+    margin: 0 auto;
+    /* Centre l'image horizontalement */
+}
+
+/* Style pour le titre du cocktail dans la modal */
+#titleCocktail {
+    color: #ae9b65;
+    /* Couleur du texte */
+    font-size: 1.3em;
+    /* Taille de la police de caractères */
+}
+
+/* Styles pour les écrans avec une largeur maximale de 780px */
+@media only screen and (max-width: 780px) {
+
+    /* Style pour les cartes des cocktails */
+    .card {
+        width: 20%;
+        /* Largeur de l'élément définie à 20% de son conteneur parent */
+        max-width: 20%;
+        /* Largeur maximale de l'élément définie à 20% */
+        text-align: center;
+        /* Alignement du texte centré */
+        object-fit: cover;
+        /* Ajuste l'image pour couvrir l'élément sans déformation */
+    }
+
+    /* Style pour les images des cartes */
+    .imgCard {
+        max-width: 100%;
+        /* Largeur maximale de l'élément définie à 100% */
+        object-fit: fill;
+        /* Ajuste l'image pour remplir l'élément sans conserver les proportions */
+    }
+
+    /* Style pour le champ de recherche */
+    #searchChamps {
+        max-width: 60%;
+        /* Largeur maximale de l'élément définie à 60% */
+        width: 50%;
+        /* Largeur de l'élément définie à 50% de son conteneur parent */
+        margin-left: 50px;
+        /* Marge à gauche de 50px */
+        height: 35px;
+        /* Hauteur de l'élément définie à 35px */
+        font-family: "Dancing Script", cursive;
+        /* Police de caractères utilisée */
+        font-size: 20px;
+        /* Taille de la police de caractères */
+    }
+
+    /* Style pour le conteneur des cocktails */
+    #cocktailsConteneur {
+        display: flex;
+        /* Utilise le modèle de boîte flexible pour le layout */
+        flex-direction: row;
+        /* Affiche les éléments en ligne */
+        flex-wrap: wrap;
+        /* Permet aux éléments de passer à la ligne suivante */
+        margin: auto 0px auto;
+        /* Marge automatique en haut et en bas, 0px à droite et à gauche */
+        padding-top: 50px;
+        /* Padding en haut de 50px */
+        max-width: 600px;
+        /* Largeur maximale de l'élément définie à 600px */
+        height: 100%;
+        /* Hauteur de l'élément définie à 100% de son conteneur parent */
+        min-height: 600px;
+        /* Hauteur minimale de l'élément définie à 600px */
+        object-fit: fill;
+        /* Ajuste l'image pour remplir l'élément sans conserver les proportions */
+    }
+
+    /* Style pour le titre 2 */
+    #titre2 {
+        border-bottom: rgb(220, 20, 60, 0.80) 2px solid;
+        /* Bordure en bas */
+        padding-bottom: 10px;
+        /* Padding en bas */
+        margin-left: 20px;
+        /* Marge à gauche de 20px */
+        color: white;
+        /* Couleur du texte */
+        float: left;
+        /* Flotte à gauche de son conteneur parent */
+        font-size: 20px;
+        /* Taille de la police de caractères */
+        margin-top: 50px;
+        /* Marge en haut de 50px */
+    }
+
+    /* Style pour le sous-titre */
+    #subTitle {
+        font-family: "Dancing Script", cursive;
+        /* Police de caractères utilisée */
+        margin-left: 20px;
+        /* Marge à gauche de 20px */
+        margin-top: 20px;
+        /* Marge en haut de 20px */
+        font-size: 0.8em;
+        /* Taille de la police de caractères */
+        color: #d1d1d1;
+        /* Couleur du texte */
+    }
+
+    /* Style pour le bouton shakebutton */
+    #shakebutton {
+        display: flex;
+        /* Utilise le modèle de boîte flexible pour le layout */
+        margin-right: 0px;
+        /* Aucune marge à droite */
+        margin-top: 50px;
+        /* Marge en haut de 50px */
+        height: 50px;
+        /* Hauteur du bouton définie à 50px */
+        background-color: #ff2121;
+        /* Couleur de fond du bouton */
+        width: 100px;
+        /* Largeur du bouton définie à 100px */
+        color: white;
+        /* Couleur du texte en blanc */
+        border-radius: 5px;
+        /* Coins arrondis du bouton définis à 5px */
+        font-size: 0.55em;
+        /* Taille de la police de caractères définie à 0.55em */
+    }
+
+    /* Style pour le conteneur de logo et titre */
+    #conteneurLogo_Titre {
+        max-width: 600px;
+        /* Largeur maximale de l'élément définie à 600px */
+    }
+
+    /* Style pour les boutons avec la classe .boutonAF */
+    .boutonAF {
+        max-width: 100%;
+        /* Largeur maximale de l'élément définie à 100% */
+        object-fit: cover;
+        /* Ajuste l'image pour couvrir l'élément sans déformation */
+        max-height: 20px;
+        /* Hauteur maximale de l'élément définie à 20px */
+        font-size: 0.5em;
+        /* Taille de la police de caractères définie à 0.5em */
+    }
+
+    /* Style pour les noms des cartes des cocktails */
+    .cName {
+        font-size: 0.5em;
+        /* Taille de la police de caractères définie à 0.5em */
+    }
+
+    /* Style pour le formulaire */
+    #form {
+        max-width: 600px;
+        /* Largeur maximale de l'élément définie à 600px */
+        font-size: 0.5em;
+        /* Taille de la police de caractères définie à 0.5em */
+    }
+
+    /* Style pour le choix des ingrédients */
+    #ingrCChoice {
+        font-size: 1.2em;
+        /* Taille de la police de caractères définie à 1.2em */
+    }
+
+    /* Style pour le titre du cocktail dans la modal */
+    #titleCocktail {
+        color: #ae9b65;
+        /* Couleur du texte */
+        font-size: 0.5em;
+        /* Taille de la police de caractères définie à 0.5em */
+    }
+
+    /* Style pour le bouton de recherche */
+    #searchBut {
+        background-color: #ff2121;
+        /* Couleur de fond du bouton */
+        color: white;
+        /* Couleur du texte en blanc */
+        float: right;
+        /* Flotte à droite de son conteneur parent */
+        width: 20%;
+        /* Largeur du bouton définie à 20% de son conteneur parent */
+        margin-right: 50px;
+        /* Marge à droite de 50px */
+        height: 35px;
+        /* Hauteur du bouton définie à 35px */
+    }
 }

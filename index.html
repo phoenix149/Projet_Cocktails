@@ -25,7 +25,8 @@
                 <p id="subTitle">Essayez le Cocktail Shaker pour obtenir un cocktail au hasard</p>
             </article>
             <article id="shakeMe">
-                <input type="button" value="🍸Shake me a cocktail " id="shakebutton">
+                <input type="button" data-bs-target="#detailsModal" data-bs-toggle="modal" value="🍸Shake me a cocktail " id="shakebutton">
+                <p id="titleCocktail"></p>
             </article>
         </section>
     </header>
@@ -41,13 +42,26 @@
             </form>
         </article>
         <main>
-        <section id="cocktailsConteneur" class="container-fluid">
+        <section id="cocktailsConteneur" class="">
 
         </section>
-        <!-- Vertically centered scrollable modal -->
-<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" id="modalTitle">
-
-  </div>
+        <div class="modal fade" id="detailsModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalTitle"></h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img id="modalImage" src="" alt="" class="img-fluid mb-3">
+                  <h6>Ingredients et dosages :</h6>
+                  <ul id="modalIngredients"></ul>
+                  <h6>Instructions :</h6>
+                  <p id="modalInstructions"></p>
+                </div>
+              </div>
+            </div>
+          </div>
     </main>
 
 
